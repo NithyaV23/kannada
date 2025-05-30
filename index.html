@@ -1,0 +1,675 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home || Spark</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
+
+    <!-- all css here -->
+    <!-- bootstrap v5.1.0 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- icofont css -->
+    <link rel="stylesheet" href="css/icofont.css">
+    <!-- Nivo css -->
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <!-- animaton text css -->
+    <link rel="stylesheet" href="css/animate-text.css">
+    <!-- datepicker css -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <!-- Metrial iconic fonts css -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color css -->
+    <link href="css/color/skin-default.css" rel="stylesheet">
+
+    <!-- modernizr css -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <style>
+          h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #2e003e;
+    }
+    .newspaper {
+      column-count: 2;
+      column-gap: 50px;
+      text-align: justify;
+    }
+    html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  background-color:#d1ffbd;
+  font-family:'Noto Sans Kannada', sans-serif;
+}
+/* Attractive CSS styling for Spark event page */
+
+body {
+  background-color: #f6fdfc;
+  font-family: 'Noto Sans Kannada', sans-serif;
+  color: #333;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+h1, h2, h3, .section-title {
+  color: #2e003e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-slider-area {
+  position: relative;
+  background: linear-gradient(to bottom right, #026467, #3f3d56);
+  padding-bottom: 60px;
+}
+
+.slider-caption-1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.slider-caption-1 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.slider-btn .btn-def {
+  background: #008000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s ease-in-out;
+}
+
+.slider-btn .btn-def:hover {
+  background: #00a86b;
+}
+
+.about-area {
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.about-left p, .newspaper p {
+  font-size: 17px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-step .sub-title {
+  background: #008000;
+  color: #fff;
+  padding: 8px 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.about-right ul li {
+  background: #eef9f3;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-left: 5px solid #008000;
+  list-style: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.newspaper {
+  column-count: 2;
+  column-gap: 50px;
+  padding: 20px;
+}
+
+.newspaper p {
+  margin-bottom: 15px;
+}
+
+.newspaper .highlight {
+  background: #fffbcc;
+  border-left: 4px solid #ff9900;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.down-arrow a {
+  font-size: 30px;
+  color: #fff;
+  animation: bounce 2s infinite;
+  display: inline-block;
+  margin-top: -40px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.recent-news-area {
+  background: #fafafa;
+  padding: 60px 0;
+}
+
+.news-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive Fix */
+@media screen and (max-width: 768px) {
+  .newspaper {
+    column-count: 1;
+  }
+
+  .slider-caption-1 h1 {
+    font-size: 28px;
+  }
+
+  .about-left, .about-right {
+    text-align: center;
+  }
+}
+/* Section Header */
+.section-header {
+  background: linear-gradient(135deg, #006400, #228B22);
+  color: #FFD700;
+  width: 90%;
+  margin: 40px auto 10px;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+}
+
+/* Content Container */
+.newspaper {
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: 0 auto 40px;
+  padding: 25px;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.9;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+/* Highlighted Subheader */
+.subheader {
+  background: linear-gradient(135deg, #004d00, #006400);
+  color: #FFD700;
+  text-align: center;
+  width: 85%;
+  margin: 30px auto 10px;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bold Red Paragraph */
+.newspaper p.important {
+  color: #d32f2f;
+  font-weight: bold;
+  background-color: #fff8f8;
+  padding: 12px;
+  border-left: 4px solid #d32f2f;
+  margin-top: 20px;
+}
+
+/* Paragraph Spacing */
+.newspaper p {
+  margin-bottom: 20px;
+}
+.video-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .video-box {
+      flex: 1 1 500px;
+      max-width: 600px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    </style>
+
+</head>
+
+<body>
+    
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!--body-wraper-are-start-->
+    <div class="wrapper">
+
+        <!--slider header area are start-->
+        <div class="header-slider-area" id="home">
+            <!--header start-->
+          
+                <!--header-top-end-->
+                <!--logo menu area start-->
+               
+                <!--logo menu area start-->
+            </div>
+            <!-- header End-->
+
+            <!--slider area are start-->
+            <div class="slider-container bg-overlay">
+                <!-- Slider Image -->
+                <div id="mainSlider" class="nivoSlider slider-image">
+                    <img src="img/slider/banner (3).jpg" alt="main slider" title="#htmlcaption1" />
+                    <img src="img/slider/slider2.jpg" alt="main slider" title="#htmlcaption2" />
+                </div>
+                <!-- Slider Caption 1 -->
+         
+                <!-- Slider Caption 2 -->
+                <div id="htmlcaption2" class="nivo-html-caption slider-caption-1">
+                    <div class="container">
+                        <div class="slide1-text">
+                            <div class="middle-text slide-def">
+                                <div class="cap-dec wow fadeInUp" data-wow-duration=".9s" data-wow-delay="0.8s">
+                                    <p>All Over The worlds</p>
+                                </div>
+                                <div class="cap-title wow fadeInUp" data-wow-duration=".9s" data-wow-delay="0.8s">
+                                    <h1>Biggest Designers Meet Up</h1>
+                                </div>
+                                <div class="date-address wow fadeInUp" data-wow-duration=".9s" data-wow-delay="0.8s">
+                                    <div class="event-date"> <i class="zmdi zmdi-calendar-note"></i>may 31, 2025 </div>
+                                    <div class="event-location"> <i class="zmdi zmdi-pin"></i>ಥಳ: ಡಾ. ಬಾಬು ಜಗಜೀವನ ರಾಮ್ ಭವನ
+
+ಸುಮನಹಳ್ಳಿ ಸರ್ಕಲ್, ಮಾಗಡಿ ರಸ್ತೆ, ಕೇಂದ್ರ ಪರಿಹಾರ ಸಮಿತಿ (ನಿರಾಶ್ರಿತರ ಕೇಂದ್ರ), ಬೆಂಗಳೂರು-560091.</div>
+                                </div>
+                                <div class="slider-btn wow fadeInDown" data-wow-duration=".9s" data-wow-delay="0.8s"> <a
+                                        class="btn-def" href="#">Buy Tickets</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- home slider end -->
+            </div>
+            <!--slider area are End-->
+            <div class="down-arrow"> <a class="see-demo-btn" href="#about-event"><i
+                        class="zmdi zmdi-long-arrow-down"></i></a> </div>
+        </div>
+        <!--slider header area are end-->
+
+        <!--about area are start-->
+        <div class="about-area ptb100 fix" id="about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-left">
+                            <div class="about-top">
+                                <h1 class="section-title">ಕಾರ್ಯಕ್ರಮ</h1>
+                                <div class="total-step">
+                                    <div class="descp">
+                                        <p>ಸಂವಿಧಾನ ಜಾಗೃತಿ ಸಮಾವೇಶವು 31 ಮೇ 2025, ಬೆಳಿಗ್ಗೆ 10:30 ಗಂಟೆಗೆ ನಡೆಯಲಿದೆ. ಸ್ಥಳ ಡಾ. ಬಾಬು ಜಗಜೀವನ ರಾಮ್ ಭವನ, ಸುಮನಹಳ್ಳಿ ಸರ್ಕಲ್ ಬಳಿ, ಮಾಗಡಿ ರಸ್ತೆಯಲ್ಲಿದೆ, ಬೆಂಗಳೂರು. ಈ ಕಾರ್ಯಕ್ರಮವು ಸಮುದಾಯದ ಸದಸ್ಯರಿಗೆ ಅವರ ಸಂವಿಧಾನಿಕ ಹಕ್ಕುಗಳ ಬಗ್ಗೆ ಜಾಗೃತಿ ಮೂಡಿಸುವುದರೊಂದಿಗೆ, ಅಧಿಕಾರ ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳನ್ನು ತಿಳಿಸುವ ಉದ್ದೇಶವಿದೆ. ಈ ಸ್ಥಳವನ್ನು ನಿರಾಶ್ರಿತರಿಗೆ ಸಹಾಯ ಮಾಡುವ ಕೇಂದ್ರ ಪರಿಹಾರ ಸಮಿತಿ ನಿರ್ವಹಿಸುತ್ತದೆ.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="section-title">ಕಾರ್ಯಕ್ರಮದ ವಿವರ</h1>
+                            <div class="total-step">
+                                <div class="about-step">
+                                    <h2 class="sub-title">ಸಭಾ ಕಾರ್ಯಕ್ರಮದ ವಿವರ</h2>
+                                   <h2 class="sub-title">ಕ್ರಾಂತಿ ಗೀತೆಯೊಂದಿಗೆ ಕಾರ್ಯಕ್ರಮ ಚಾಲನೆ</h2>
+                                   <h2 class="sub-title">
+ನಾಡಗೀತೆ</h2>
+                                   <h2 class="sub-title">ಸ್ವಾಗತ</h2>
+                                   <h2 class="sub-title">ಜ್ಯೋತಿ ಬೆಳಗಿಸುವುದರ ಮೂಲಕ ಉದ್ಘಾಟನೆ</h2>
+                                   <h2 class="sub-title">ಸಂವಿಧಾನ ಪೀಠಿಕೆ ವಾಚನ</h2>
+                                   <h2 class="sub-title">
+ಪ್ರಾಸ್ತಾವಿಕ ನುಡಿ</h2>
+                                   <h2 class="sub-title">ಮುಖ್ಯ ಅತಿಥಿಗಳ ಭಾಷಣ</h2>
+                                   <h2 class="sub-title">ಅತಿಥಿಗಳ ಭಾಷಣ</h2>
+                                   <h2 class="sub-title">ಮುಖ್ಯ ಅತಿಥಿಗಳಿಗೆ ನೆನಪಿನ ಕಾಣಿಕೆ</h2>
+                                   <h2 class="sub-title">ಸಂವಿಧಾನದ ಬಗ್ಗೆ ಪ್ರವಚನ</h2>
+                                   <h2 class="sub-title">ಸಾಧಕರಿಗೆ ಸನ್ಮಾನ</h2>
+                                   <h2 class="sub-title">ಸಮುದಾಯದ ಗಣ್ಯರಿಗೆ ಸನ್ಮಾನ</h2>
+                                   <h2 class="sub-title">ಡಾ. ಬಾಬು ಜಗಜೀವನ ರಾಮ್‌ರವರ ಜೀವನ ಕುರಿತು ಪ್ರವಚನ</h2>
+                                      <h2 class="sub-title">ಸಂಘದ ಪದಾಧಿಕಾರಿಗಳಿಗೆ ಸನ್ಮಾನ</h2>
+                                         <h2 class="sub-title">ಅಧ್ಯಕ್ಷರ ಭಾಷಣ
+</h2>
+ <h2 class="sub-title">ರಾಷ್ಟ್ರಗೀತೆಯೊಂದಿಗೆ ವಂದನಾರ್ಪಣೆ</h2>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-right">
+                            <ul>
+                                <li><i class="zmdi zmdi-calendar-note"></i>may 31,2025</li>
+                                <li><i class="zmdi zmdi-pin"></i>: ಡಾ. ಬಾಬು ಜಗಜೀವನ ರಾಮ್ ಭವನ
+
+ಸುಮನಹಳ್ಳಿ ಸರ್ಕಲ್, ಮಾಗಡಿ ರಸ್ತೆ, ಕೇಂದ್ರ ಪರಿಹಾರ ಸಮಿತಿ (ನಿರಾಶ್ರಿತರ ಕೇಂದ್ರ), ಬೆಂಗಳೂರು-560091.</li>
+                                <li><i class="zmdi zmdi-palette"></i><strong>ಸ್ವಾಗತ ಕೋರುವವರು</strong></li>
+                                                                                <li>ಶ್ರೀ ರಾಜೇಶ್ ಜಿ. ಗೌಡ, ಕ.ಸಾ.ಸೇ ನಿರ್ದೇಶಕರು, ಡಾ. ಬಾಬು ಜಗಜೀವನ ರಾಮ್ ಸಂಶೋಧನಾ ಸಂಸ್ಥೆ, ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ</li><br>
+                              
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+                                 
+                   
+       
+        
+     
+
+
+
+    <!-- Green Header with Yellow Text -->
+    <div class="section-header" div style="background-color:#008000; color:#FFFF00; width: 90%; margin: 30px auto; padding: 30px; text-align:center; font-size:24px; font-weight:bold; padding:10px; border-radius:10px 10px 0 0;">
+   ನಮ್ಮೊಂದಿಗೆ ಇತರೆ ಗಣ್ಯರು ಮತ್ತು ಮುಖಂಡರುಗಳು
+    </div>
+
+    <!-- Kannada Content -->
+      <div class="newspaper"><div style="color:#555555; font-size:16px;text-align:center; line-height:1.8; width: 90%; margin: -10px auto; padding: 30px; padding:15px; text-align:justify;">
+     ರಮೇಶ್ ಜಿಗಜಿಣಗಿ, ಮಾಜಿ ಕೇಂದ್ರ ಸಚಿವರು ಹಾಗೂ ಹಾಲಿ ಸಂಸದರು, ಎ. ನಾರಾಯಣಸ್ವಾಮಿ, ಮಾಜಿ ಕೇಂದ್ರ ಸಚಿವರು, ಗೋವಿಂದ ಎಂ. ಕಾರಜೋಳ, ಹಾಲಿ ಸಂಸದರು ಹಾಗೂ ಮಾಜಿ ಉಪ ಮುಖ್ಯಮಂತ್ರಿಗಳು, ಕರ್ನಾಟಕ ಸರ್ಕಾರ, ಕೆ.ಬಿ. ಕೃಷ್ಣಮೂರ್ತಿ, ಮಾಜಿ ಸಂಸದರು (ರಾಜ್ಯಸಭಾ), ಡಾ.ಎಲ್. ಹನುಮಂತಯ್ಯ, ಮಾಜಿ ಸಂಸದರು (ರಾಜ್ಯಸಭಾ), ಬಿ.ಎನ್. ಚಂದ್ರಪ್ಪ, ಮಾಜಿ ಸಂಸದರು, ಹೆಚ್. ಆಂಜನೇಯ, ಮಾಜಿ ಸಚಿವರು, ಎಂ. ಶಿವಣ್ಣ (ಕೋಟೆ ಶಿವಣ್ಣ), ಮಾಜಿ ಸಚಿವರು, ದುರ್ಯೋಧನ ಐಹೊಳೆ, ಶಾಸಕರು, ವಿಠಲ ಕಟಕದೊಂಡ, ಶಾಸಕರು, ಬಸವರಾಜು ಮತ್ತಿಮೋಡ್, ಶಾಸಕರು, ಶ್ರೀಮತಿ ರೂಪಾ ಶಶಿಧರ್, ಶಾಸಕರು, ಸಿ. ಶ್ರೀನಿವಾಸ್, ಶಾಸಕರು, ನೆಲಮಂಗಲ, ಬಸವಂತಪ್ಪ, ಶಾಸಕರು, ಮಾಯಕೊಂಡ, ಡಾ.ಟಿ. ತಿಮ್ಮಯ್ಯ, ಶಾಸಕರು, ವಿಧಾನ ಪರಿಷತ್, ಸುಧಾಮ್ ದಾಸ್, ಶಾಸಕರು, ವಿಧಾನ ಪರಿಷತ್, ವಸಂತಕುಮಾರ್, ಶಾಸಕರು, ವಿಧಾನ ಪರಿಷತ್, ಪದ್ಮಶ್ರೀ ಅಣ್ಣ ಮಂದಕೃಷ್ಣ ಮಾದಿಗ, ರಾಷ್ಟ್ರ ನಾಯಕರು ಹಾಗೂ ಮೀಸಲಾತಿಯ ಪ್ರತಿಪಾದಕರು, ಪದ್ಮಶ್ರೀ ಡಾ।। ವಿಜಯಲಕ್ಷ್ಮಿ ದೇಶಮಾನೆ, ಆರ್. ಧರ್ಮಸೇನ, ಮಾಜಿ ಎಂ.ಎಲ್.ಸಿ, ರಾಮಕೃಷ್ಣ ದೊಡ್ಡಮನಿ, ಮಾಜಿ ಶಾಸಕರು, ವೀರಭದ್ರಪ್ಪ ಹಾಲರವಿ, ಮಾಜಿ ಶಾಸಕರು, ಪಾವಗಡ ತಿಮ್ಮರಾಯಪ್ಪ, ಮಾಜಿ ಶಾಸಕರು, ಪಿಳ್ಳಮುನಿಸ್ವಾಮಪ್ಪ, ಮಾಜಿ ಶಾಸಕರು, ಶಿವಾನಂದ, ಮಾಜಿ ಶಾಸಕರು, ಚಿಕ್ಕಬಳ್ಳಾಪುರ, ಶ್ರೀಮತಿ ಅನುಸೂಯಮ್ಮ, ಮಾಜಿ ಶಾಸಕರು, ಚಿಕ್ಕಬಳ್ಳಾಪುರ, ಅಮರೇಶ್, ಮಾಜಿ ಶಾಸಕರು, ಮುಳಬಾಗಲು, ಪ್ರೊ. ಲಿಂಗಣ್ಣ, ಮಾಜಿ ಶಾಸಕರು, ಬಸವರಾಜು ಧಡೆಸಗೂರು, ಮಾಜಿ ಶಾಸಕರು, ವಿ. ನಾರಾಯಣಸ್ವಾಮಿ, ಅಧ್ಯಕ್ಷರು, ಸರ್ವೋದಯ ಶಿಕ್ಷಣ ಸಂಸ್ಥೆಗಳು, ಗೋಲ್ಡ್ ನಾರಾಯಣಸ್ವಾಮಿ, ಮಾಜಿ ಮಹಾಪೌರರು, ಬಿಬಿಎಂಪಿ, ಸಿ.ಕೆ. ಪಾಪಣ್ಣ, ಮಾಜಿ ಸದಸ್ಯರು, ಮಂಡ್ಯ ಜಿಲ್ಲಾ ಪಂಚಾಯತ್, ಎಲ್. ಕೃಷ್ಣಮೂರ್ತಿ, ಮಾಜಿ ಆಯುಕ್ತರು, ಮಾಹಿತಿ ಆಯೋಗ, ದಾದಾ ಸಾಹೇಬ್ ಎನ್. ಮೂರ್ತಿ, ರಾಷ್ಟ್ರೀಯ ಅಧ್ಯಕ್ಷರು, ಆರ್.ಪಿ.ಐ.ಬಿ ಮತ್ತು ಡಿ.ಎಸ್.ಎಸ್. ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಎಂ. ಶಂಕರಪ್ಪ, ಮಾದಿಗ ದಂಡೋರ, ಎಸ್. ಮೂರ್ತಿ, ಮಾಜಿ ವಿಧಾನಸಭಾ ಕಾರ್ಯದರ್ಶಿಗಳು ಹಾಗೂ ಅಹಿಂದ ಸಂಸ್ಥಾಪಕರು, ಮಾರಸಂದ್ರ ಮುನಿಯಪ್ಪ, ರಾಷ್ಟ್ರೀಯ ಅಧ್ಯಕ್ಷರು, ಎಐಬಿಎಸ್‌ಪಿ, ಕೆ.ವಿ. ಗೌತಮ್, ಅಧ್ಯಕ್ಷರು, ಕಾಂಗ್ರೆಸ್ ಪಕ್ಷ, ಬೆಂ.ಗ್ರಾಮಾಂತರ, ಶಿವಪ್ರಸಾದ್, ಎಂ, ಸಂಸ್ಥಾಪಕ ಅಧ್ಯಕ್ಷರು, ದೇವರತ್ನ ಪ್ರತಿಷ್ಠಾನ ಹಾಗೂ ಕಾಂಗ್ರೆಸ್ ಯುವ ಮುಖಂಡರು, ಮೈಸೂರು, ಗೋನಾಳ್‌ ಭೀಮಪ್ಪ, ಐಎಎಸ್, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಕೆಪಿಎಸ್ಸಿ, ಹೆಚ್.ಆರ್. ತೇಗನೂರು, ನಿವೃತ್ತ ಅಪರ ಆಯುಕ್ತರು, ವಾಣಿಜ್ಯ ತೆರಿಗೆ ಇಲಾಖೆ, ಡಾ. ಬಾಬುರಾವ್ ಮುಡಬಿ, ನಿವೃತ್ತ ಐಎಎಸ್, ಎಂ. ಲಕ್ಷ್ಮೀನಾರಾಯಣ್, ನಿವೃತ್ತ ಐಎಎಸ್, ಶ್ರೀಮತಿ ಆರ್. ರತ್ನಪ್ರಭಾ, ಐಎಎಸ್, ನಿವೃತ್ತ ಮುಖ್ಯ ಕಾರ್ಯದಶಿಗಳು, ಎನ್.ಸಿ. ಮುನಿಯಪ್ಪ, ನಿವೃತ್ತ ಐಎಎಸ್, ಬಲದೇವ ಕೃಷ್ಣ, ನಿವೃತ್ತ ಐಎಎಸ್, ಬಿ.ಹೆಚ್. ಅನಿಲ್ ಕುಮಾರ್, ನಿವೃತ್ತ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿಗಳು, ಹೆಚ್.ಆರ್. ಭೀಮಾಶಂಕರ್, ಮಹಾಪ್ರಧಾನ ಆಯುಕ್ತರು, ಆರ್ಥಿಕ ಇಲಾಖೆ, ಭಾರತ ಸರ್ಕಾರ (ಜಿಎಸ್‌ ವಿಭಾಗ), ಬಸವರಾಜ್ ಮಾಲಗತ್ತಿ, ನಿವೃತ್ತ ಐಪಿಎಸ್, ಮಾನಯ್ಯ, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಕೇಂದ್ರ ಪರಿಹಾರ ಸಮಿತಿ, ಎಂ.ಆರ್. ವೆಂಕಟೇಶ್, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಸಫಾಯಿ ಕರ್ಮಚಾರಿ ಆಯೋಗ, ಓ. ಶಂಕರ್, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಲಿಡ್ಕರ್ ನಿಗಮ, ಮಾರಪ್ಪ, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಸಫಾಯಿ ಕರ್ಮಚಾರಿ ಆಯೋಗ, ಪ್ರೊ. ಶ್ರೀಮತಿ ಸಮತ ಬಿ. ದೇಶಮಾನೆ, ಪ್ರಾಚಾರ್ಯರು, ಬೆಂಗಳೂರು ವಿಶ್ವವಿದ್ಯಾನಿಲಯ, ಶ್ರೀಮತಿ ಡಾ. ಸುಜಾತ. ಜೆ.ಆರ್, ಎಂಎ, ಪಿಹೆಚ್‌ ಡಿ, ರಾಷ್ಟ್ರೀಯ ಅಧ್ಯಕ್ಷರು, ಮಹಿಳಾ ಅಹಿಂದ ಒಕ್ಕೂಟ, ಪ್ರೊ. ಗಂಗಾಧರ್, ಪ್ರಾಧ್ಯಾಪಕರು, ಬೆಂಗಳೂರು ವಿಶ್ವವಿದ್ಯಾನಿಲಯ, ಎ.ಎಲ್. ಮಂಜುನಾಥ್, ಕೆಎಎಸ್, ನರಸಪ್ಪ, ನಿವೃತ್ತ ಎಜಿಎಂ, ಕೆಪಿಸಿಎಲ್, ಪ್ರೊ. ಗೋವಿಂದಯ್ಯ, ಮೈಸೂರು ವಿಶ್ವವಿದ್ಯಾನಿಲಯ, ದಾಸನೂರು ಕೂಸಣ್ಣ, ಬರಹಗಾರರು ಮತ್ತು ಸಾಹಿತಿಗಳು, ಎಂ. ಗುರುಮೂರ್ತಿ, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಡಿಎಸ್‌ಎಸ್ ಒರಿಜಿನಲ್, ಲಯನ್ ಬಾಲಕೃಷ್ಣ, ದಲಿತ ಮುಖಂಡರು, ಎಂ. ಮೂರ್ತಿ, ಸಂಸ್ಥಾಪಕ ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಅಖಿಲ ಕರ್ನಾಟಕ ಡಾ.ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಹಾಗೂ ಬಾಬು ಜಗಜೀವನ್‌ ರಾಮ್ ಯುವಶಕ್ತಿ ಸಂಘ, ರಾಜು ಕಡ್ಯಾಳ್, ಹಿರಿಯ ರಾಜ್ಯ ಉಪಾಧ್ಯಕ್ಷರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಬೀದರ್, ಪಿ. ಮೂರ್ತಿ, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಅಂಬೇಡ್ಕರ್ ಸೇನೆ, ಮದ್ದೂರು ಶ್ರೀನಿವಾಸ್, ಅಧ್ಯಕ್ಷರು, ಪೌರಕಾರ್ಮಿಕ ಚಾಲಕರ ಸಂಘ, ಅರಕಲವಾಡಿ ನಾಗೇಂದ್ರ, ಚಾಮರಾಜನಗರ, ಮುನಿರಾಜು, ಬಿಬಿಎಂಪಿ ಮಾಜಿ ಸದಸ್ಯರು, ಆರ್‌ಆರ್ ನಗರ, ಮಂಜುನಾಥ ಗಂಗಪ್ಪ ಶಿಕ್ಷೆಗೋಳ, ವಿಶ್ವ ಮಾನವ ಬಂಧುತ್ವ ವೇದಿಕೆ, ಸಂಪಗಾಂವ, ಕಲ್ಕೆರೆ ಶಿವಣ್ಣ, ಅಧ್ಯಕ್ಷರು, ಮಾಗಡಿ ತಾಲ್ಲೂಕು ಗ್ಯಾರಂಟಿ ಸಮಿತಿ, ಮಾಗಡಿ ಜಯರಾಮ್, ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ಡಾ. ರಮೇಶ್ ಚಕ್ರವರ್ತಿ, ಸಂಸ್ಥಾಪಕ ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಜಾಂಬವ ಯುವ ಸೇನೆ, ಡಿ. ವೀರಣ್ಣ, ಜಿಲ್ಲಾ ಸಂಚಾಲಕರು, ಬೆಂ.ನಗರ ಮತ್ತು ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ ಮಾನವ ಬಂಧುತ್ವ ವೇದಿಕೆ, ಕರ್ನಾಟಕ, ಮಾಜಿ ಸಚಿವರಾದ ದಿ॥ ಪ್ರಭಾಕರ್‌ರವರ ಪುತ್ರ ಚಲುವರಾಜು, ಮಾಜಿ ಉಪಾಧ್ಯಕ್ಷರು, ಜಿಲ್ಲಾ ಪಂಚಾಯತ್, ಬೆಂ.ಗ್ರಾ. ಜಿಲ್ಲೆ, ಡಾ. ಬಿ.ಆರ್. ಮುನಿರಾಜು, ರಾಷ್ಟ್ರೀಯ ಅಧ್ಯಕ್ಷರು, ಜೈಭೀಮ್ ಅಖಿಲ ಭಾರತ ದಲಿತ ಕ್ರಿಯಾ ಸಮಿತಿ, ಕೋಗಿಲು ವೆಂಕಟೇಶ್, ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ಎ. ಮುನಿಯಪ್ಪ, ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಎಸ್ಸಿ,ಎಸ್ಟಿ, ಆಯೋಗ, ಅಂಬಣ್ಣ ಆರೋಲಿಕರ್, ಕ್ರಾಂತಿಗೀತೆ ಹಾಗೂ ಜನಪದ ಗಾಯಕರು, ಬೆಂಗಳೂರು ಮುನಿಯಪ್ಪ, ಜನಪದ ಗಾಯಕರು, ಬಸವರಾಜ್ ಕೌತಾಳ್, ದಲಿತ ಮುಖಂಡರು, ಕೇಶವಮೂರ್ತಿ(ಎಂಆರ್‌ ಹೆಚ್ ಎಸ್), ಸಂತೋಷ್ ಸವಣೂರು, ಅಧ್ಯಕ್ಷರು ಡೋಹಾರ ಸಮಾಜ, ಶಿವಪ್ಪ ಮುಳಗುಂದ, ಅಧ್ಯಕ್ಷರು, ಮೋಚಿಗಾರ ಸಮಾಜ, ಜಗದೀಶ್ ಬೆಟಗೇರಿ ಮತ್ತು ವೈ.ಸಿ. ಕಾಂಬ್ಳೆ, ಸಮಗಾರ ಸಮಾಜದ ಮುಖಂಡರು, ಶಾಂತರಾಜ್, ಅಧ್ಯಕ್ಷರು, ದಕ್ಕಲಿಗ ಸಮಾಜ, ಶಾಮ್ ನಟೇಕರ್, ಚಿತ್ತಾಪುರ ಗುಲ್ಬರ್ಗಾ, ಹೆಚ್. ಮಲಿಯಪ್ಪ, ಉಪಾಧ್ಯಕ್ಷರು, ತಾಪಂ ಸೊಂಡೂರು, ಆರ್, ಗುರುಮೂರ್ತಿ, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಕರ್ನಾಟಕ ದಲಿತ ಸಂಘರ್ಷ ಸಮಿತಿ ವಿಮೋಚನಾ ವಾದ, ದೀಪಕ್ ಕಿರಣ್ ಮಾಜಿ ಸಚಿವರಾದ ದಿ। ಅಂಜನಾಮೂರ್ತಿರವರ ಪುತ್ರ, ಆದ್ಯಪ್ಪ ಸಿಂಗನಾಳ, ಅಧ್ಯಕ್ಷರು, ಕರ್ನಾಟಕ ಕಲ್ಯಾಣ, ಶ್ರೀಮತಿ ಎಂ. ಶಾಂತ, ಮಹಿಳಾ ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಕರ್ನಾಟಕ ದಲಿತ ಸಂಘರ್ಷ ಸಮಿತಿ ವಿಮೋಚನಾ ವಾದ, ರಾಜ್ ಕುಮಾರ್, ಆರ್.ಆರ್. ನಗರ, ಅಧ್ಯಕ್ಷರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಹರೀಶ್ ಬಾಬು. ಎಂ, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಮಹಾನಾಯಕ ಅಂಬೇಡ್ಕರ್ ಸೇವಾ ಸಮಿತಿ, ಜೆ. ಲಿಂಗಯ್ಯ, ಅಧ್ಯಕ್ಷರು, ಅಂಬೇಡ್ಕರ್ ಹಿತರಕ್ಷಣಾ ಸಮಿತಿ, ಐವಾರಕಂಡಪುರ, ರಾಜು, ದಾಸನಪುರ, ಅಧ್ಯಕ್ಷರು, ಶ್ರೀ ಶಿವಶರಣ ಮಾದಾರ ಚನ್ನಯ್ಯ ಸೇವಾ ಸಮಿತಿ, ಎಸ್. ನಾಗೇನಹಳ್ಳಿ ಎಂ. ಮಂಜುನಾಥ್, ಸಂಸ್ಥಾಪಕ ರಾಜ್ಯಾಧ್ಯಕ್ಷರು ಡಿವಿಎಸ್, ಪ್ರಕಾಶ್ ತುರುವನೂರು, ಜಿಲ್ಲಾಧ್ಯಕ್ಷರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಚಿತ್ರದುರ್ಗ, ಜೆ.ಸಿ. ಪ್ರಕಾಶ್ ಚನ್ನರಾಯಪ್ಪ, ಸಂಸ್ಥಾಪಕ ಅಧ್ಯಕ್ಷರು, ಮೂಲ ಮಾದಿಗ ಮುಮೆಂಟ್ M3 ಕರ್ನಾಟಕ   ಬಿ.ಎನ್. ರಂಗನಾಥಸ್ವಾಮಿ, ಅಧ್ಯಕ್ಷರು, ಉತ್ತರ ಕ್ಷೇತ್ರ ಕಾಂಗ್ರೆಸ್ ಎಸ್.ಸಿ. ಘಟಕ ದಾವಣಗೆರೆ, ವಿಜಯ್ ಕುಮಾರ್ ಔರಾದಿ, ಸುಧಾಕರ. ಪಿ, ಅಧ್ಯಕ್ಷರು, ದತ್ತಶ್ರೀ ಸಾಂಸ್ಕೃತಿಕ ವೇದಿಕೆ, ಕೆ.ಎನ್. ನಾಗೇಶ್, ಗಾಯಕರು, ಸಾಹಿತಿಗಳು ಮತ್ತು ಬರಹಗಾರರು, ಭೀಮಣ್ಣ ಬಿಲ್ಲವ, ಅಂಬೇಡ್ಕರ್ ಎಜುಕೇಷನ್ ಸೊಸೈಟಿ, ದೇವೇಂದ್ರನಾಥ್ ನಾದ್ ಯಾದಗಿರಿ, ಚನ್ನಯ್ಯ ಮಾಳಿಕೇರಿ ಯಾದಗಿರಿ, ಮಲ್ಲಣ್ಣ ದಾಸನಕೇರಿ, ಕಾಶಿನಾಥ್ ಸೇಡಂ ತಾಲ್ಲೂಕು, ಶ್ರೀಶೈಲ ಮಲ್ಲಪ್ಪ ಚಿಗನೂರು ಫಾರ್ ಫೈಲ್, ಸಿದ್ದರಾಮ ಗುಲಾಬ್ ವಾಡಿ, ಕಮಲಾಕರ್ ಶಿವಮೂರ್, ಪರಮೇಶ್ವರ ಖಾನಾಪುರ, ಮನೋಜ್ ಕುಮಾರ್, ಗುಬ್ಬಿ ಕಾಲೋನಿ, ನಾಗರಾಜ್ ಗುಂಡಗುರ್ತಿ, ಲಿಂಗರಾಜ್ ಫಾ‌ರ್ ಫೈಲ್, ದಶರಥ್ ಕಲಗುರ್ತಿ, ಲಾಲಪ್ಪ, ಟೆಲಿಕಾಂ ಡಿಪಾರ್ಟ್‌ಮೆಂಟ್ ರಾಯಚೂರು, ರಂಗಪ್ಪ ಅಡ್ವಕೇಟ್ ರಾಯಚೂರು, ಕಂಡಪ್ಪದಾಸನ್ ಯಾದಗಿರಿ, ಶಂಕರಪ್ಪ, ಅಧ್ಯಕ್ಷರು, ಮಾಜಿ ಸಚಿವರು, ಬಿ. ಶಿವಣ್ಣ ಪ್ರತಿಷ್ಠಾನ, ವಿಜಯೇಂದ್ರ ಆರ್. ರೇಣುಕಾ ರಾಜೇಂದ್ರನ್ ಮಾಜಿ ಸಚಿವರು ಇವರ ಸುಪುತ್ರ ಚಿಕ್ಕಬಳ್ಳಾಪುರ, ಮಲ್ಲಿಕಾರ್ಜುನ್, ಟಿ. ದಾವಣಗೆರೆ, ಹೆಣ್ಣೂರು ಶ್ರೀನಿವಾಸ್, ರಾಜ್ಯ ಸಂಚಾಲಕರು, ಕೆಡಿಎಸ್‌ಎಸ್, ಪ್ರೊ.ಬಿ. ಕೃಷ್ಣಪ್ಪ ಸ್ಥಾಪಿತ, ನಂಜುಂಡ ಮೌರ್ಯ, ರಾಜ್ಯ ಸಂಘಟನಾ ಸಂಚಾಲಕರು, ಕೆಡಿಎಸ್ಎಸ್ ಪ್ರೊ.ಬಿ. ಕೃಷ್ಣಪ್ಪ ಸ್ಥಾಪಿತ, ಕೃಷ್ಣ ಶ್ರೀರಂಗಪಟ್ಟಣ, ಹಾಸನ ಶ್ರೀನಿವಾಸ (ಅರುಂಧತಿಯಾರ್ ಸಂಘ), ಸುದರ್ಶನ್ ಹನುಮ, ಚಿಂತಕರು ಹಾಗೂ ಬರಹಗಾರರು, ಅರಸೀಕೆರೆ ಚಂದ್ರಶೇಖರ್, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ಕರ್ನಾಟಕ ದಲಿತ ರಕ್ಷಣಾ ವೇದಿಕೆ, ಎನ್.ಡಿ. ಸಾಲಿ, ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ಪ್ರಶಸ್ತಿ ಪುರಸ್ಕೃತರು ಹಾಗೂ ನಿವೃತ್ತ ಡಿಡಿಪಿಐ, ಹಾಸನ, ಗುರುಮೂರ್ತಿ, ಎನ್.ಸಿ, ರಾಮನಗರ ಜಿಲ್ಲಾ ಕೆಡಿಪಿ ಸದಸ್ಯರು, ಕರ್ನಾಟಕ ಸರ್ಕಾರ, ಮಾಗಡಿ ಜಿ. ಕೃಷ್ಣ, ಡಿ.ಎಂ. ಮುನಿರಾಜಪ್ಪ, ಪತ್ರಿಕಾ ವರದಿಗಾರರು, ಸಮಗ್ರ ಮುಕ್ತ ಸುದ್ದಿ, ಮಾ.ನ. ಗುರುದತ್, ರಾಜ್ಯಾಧ್ಯಕ್ಷರು, ರಾಜ್ಯ ಮಾತಾಂಗ ಜಾಗೃತಿ ಸಮಿತಿ, ಸುರೇಂದ್ರನಾಥ್, ನಿವೃತ್ತ ಪೊಲೀಸ್ ಅಧಿಕಾರಿ, ಕರಗಯ್ಯ ಹೆಚ್, ನಿವೃತ್ತ ಪೊಲೀಸ್ ಅಧಿಕಾರಿ, ಅರವಿಂದ್ ಮಂಡ್ಯ, ಬಿಜೆಪಿ ಮುಖಂಡರು, ಶ್ರೀಮತಿ ನಾಗರತ್ನ ಇಂದಿರಾ, ನಾಟಕ ಕಲಾವಿದರು, ಜನಪದ ಗಾಯಕರು ಮತ್ತು ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ನೆಲಮಂಗಲ, ರಾಮಣ್ಣ, ಮೇಷ್ಟು, ಹನುಮಯ್ಯ, ವೈ.ಎನ್, ಸಾರ್ವಜನಿಕ ಸಂಪರ್ಕ ಅಧಿಕಾರಿ, ರಾಜಾಜಿನಗರ ಪೋಸ್ಟ್ ಆಫೀಸ್, ಎಂ. ಪುಟ್ಟರಾಜು, ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ, ರಾಜ್ಯ ಸಮಿತಿ ಬೆಂಗಳೂರು, ಕ.ರಾ.ರ.ಸಾ.ಸಂ. ಪರಿಶಿಷ್ಟ ಜಾತಿ/ಪರಿಶಿಷ್ಟ ಪಂಗಡಗಳ ಅಧಿಕಾರಿಗಳು ಮತ್ತು ನೌಕರರ ಕ್ಷೇಮಾಭಿವೃದ್ಧಿ ಸಂಘ, ಆದಿತ್ಯ ನಾಗೇಶ್, ಲ್ಯಾಂಡ್ ಗ್ರಾಂಟ್ ಕಮಿಟಿ ಸದಸ್ಯರು, ದೊಡ್ಡಬಳ್ಳಾಪುರ, ಪುರುಷೋತ್ತಮ ದಾಸಪ್ಪ, ಅಧ್ಯಕ್ಷರು, ಎಸ್.ಸಿ ಘಟಕ, ಕಾಂಗ್ರೆಸ್, ವಿಜಯನಗರ, ಅರಸಪ್ಪ ಆಂಜಿನಪ್ಪ, ಅಧ್ಯಕ್ಷರು, ಆದಿಜಾಂಬವ ಸಂಘ, ವಿಜಯನಗರ, ಮುತ್ಯಾಲು, ಅಧ್ಯಕ್ಷರು, ರಾಜ್ಯ ಪೌರಕಾರ್ಮಿಕ ಸಂಘಟನೆಗಳ ಒಕ್ಕೂಟ, ಪಿ. ಹನುಮಯ್ಯ, ಮಾಜಿ ಲ್ಯಾಂಡ್ ಗ್ರಾಂಟ್ ಕಮಿಟಿ ಸದಸ್ಯರು, ಅಪಕಾರನಹಳ್ಳಿ, ಪಿ. ಉಮಾದೇವಿ, ದರ್ಗಾ ಜೋಗಹಳ್ಳಿ, ಅಧ್ಯಕ್ಷರು, ಆದಿಜಾಂಬವ ಸಂಘ, ದೊಡ್ಡಬಳ್ಳಾಪುರ, ವೆಂಕಟೇಶ್, ನೆಲಮಂಗಲ, ಯಲ್ಲಪ್ಪ, ವಕೀಲರು, ನೆಲಮಂಗಲ ಬಾರ್ ಕೌನ್ಸಿಲ್, ತುಳಸಿರಾಮ್, ವಕೀಲರು, ವಿಜಯನಗರ, ಮಲ್ಲತ್ತಹಳ್ಳಿ ರಾಮಮೂರ್ತಿ, ಅಧ್ಯಕ್ಷರು, ಕ.ರಾ.ಆದಿ ಜಾಂಬವ ಸಂಘ ಮಲ್ಲತ್ತಹಳ್ಳಿ, ಗಣೇಶ್ ದುಪ್ಪಲ್ಲಿ, ಮಾದಿಗ ದಂಡೋರ ರಾಜ್ಯ ಉಪಾಧ್ಯಕ್ಷರು ಮತ್ತು ನಗರಸಭೆ ಸದಸ್ಯರು, ಯಾದಗಿರಿ</div>
+    
+
+  <div style="text-align:center; margin-bottom: 15px;">
+  <button onclick="toggleReadMore()" id="readMoreBtn" style="background-color:#008000; color:white; padding:10px 20px; border:none; border-radius:5px; font-size:16px; cursor:pointer;">Read More</button>
+  </div>
+<div id="moreContent" style="display:none;">
+
+<div class="subheader" div style="background-color:#008000; color:#FFFF00; text-align:center; width: 85%; margin: 30px auto; padding: 30px; font-size:24px; font-weight:bold; padding:10px; border-radius:10px 10px 0 0;">
+    ಕರ್ನಾಟಕ ರಾಜ್ಯ ಆದಿ ಜಾಂಬವ ಸಂಘದ ಪದಾಧಿಕಾರಿಗಳು
+    </div>
+
+
+ಸಿ.ವಿ. ರಮೇಶ್ ಕುಮಾರ್-ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ-ಕರ್ನಾಟಕ ರಾಜ್ಯ ಆದಿಜಾಂಬವ ಅಭಿವೃದ್ಧಿ ಸಂಘ, ಮೊಬೈಲ್ ಮಂಜಣ್ಣ, ಹೊಸಹಳ್ಳಿ ವಿಜಯನಗರ, ಗೋವಿಂದರಾಜು, ದೇವರಮಾದಳ್ಳಿ, ನಾಗಮಂಗಲ ತಾ।, ಬಾಪೂಜಿನಗರ, ರಾಜ್ಯ ಸಂಚಾಲಕರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ರಾಜು ಕದರೇಶ್ ಕುಣಿಗಲ್, ರಾಜ್ಯ ಉಪಾಧ್ಯಕ್ಷರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಮಲ್ಲಿಕಾರ್ಜುನ ಬಾಂಬೆಕರ್, ರಾಜ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಅಂಬಾರಾಯ ಚಲಗೇರಿ, ವಿಭಾಗೀಯ ಅಧ್ಯಕ್ಷರು, ಕಲಬುರಗಿ ವಿಭಾಗ, ಗುಂಡೇರಾವ್, ಜಿಲ್ಲಾಧ್ಯಕ್ಷರು, ಕಲಬುರಗಿ, ಪರಶುರಾಮ ರೋನಿಹಾಳ್, ವಿಭಾಗೀಯ ಅಧ್ಯಕ್ಷರು, ಬಿಜಾಪುರ ವಿಭಾಗ, ಶ್ರೀಕಾಂತ ಮಶಾಲ್ಕರ್, ಕಾರ್ಯಾಧ್ಯಕ್ಷರು, ಕಲಬುರಗಿ, ವರಲ್ ಗಂಗಾಧರ್, ಸಂಪಾದಕರು, ನಮ್ಮ ದೀಪ ಮತ್ತು ಪೌರವಾಣಿ ಪತ್ರಿಕೆ ಮಾಧ್ಯಮ ಸಲಹೆಗಾರರು ಜಿ.ಕೆ. ಮಂಜುನಾಥ್, ಮುನಿಕೃಷ್ಣ ಕೊಡಿಗೇಹಳ್ಳಿ, ಸಂಪಾದಕರು, ಪ್ರಚಾರಕ್ಷಕ ಮಾಸಪತ್ರಿಕೆ, ನರಸಿಂಹ, ಸಂಪಾದಕರು, ರೈನ್ ಬೋ ಮೀಡಿಯಾ, ಆರುಂಧತಿ ನಾಗರಾಜ್, ಸದಸ್ಯರು, ಮಾನ್ಯುಲ್ ಸ್ಕಾವೇಂಜರ್ಸ್ ಕಮಿಟಿ, ಬೆಂಗಳೂರು, ಶ್ರೀಮತಿ ಎಂ.ಆರ್. ಸುಜಾತ ಬೈಲಪ್ಪ, ರಾಷ್ಟ್ರೀಯ ಅಧ್ಯಕ್ಷರು, ಮಹಿಳಾ ಉದ್ದಿಮೆದಾರರ ಕಾರ್ಯನಿರತ ಸಮಿತಿ, ಶ್ರೀಮತಿ ನಾಗಮಣಿ ಮುನಿಯಪ್ಪ, ಮಹಿಳಾ ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ಮಲ್ಲೇಶ್ವರಂ, ಶ್ರೀಮತಿ ಎ.ಹೆಚ್. ಸುನಿತ, ಹೈಕೋರ್ಟ್ ವಕೀಲರು, ಶ್ರೀಮತಿ ಸುಲೋಚನ, ಹೆಚ್.ವಿ. ವೆಂಕಟಪ್ಪನವರ ಪುತ್ರಿ, ಶ್ರೀಮತಿ ಮಾಲತಿ, ಮಹಿಳಾ ಅಧ್ಯಕ್ಷರು, ಕ.ರಾ.ಆದಿ ಜಾಂಬವ ಸಂಘ, ಶ್ರೀಮತಿ ಎಸ್.ವಿ. ಶೈಲಜಾ, ಹೈಕೋರ್ಟ್ ವಕೀಲರು, ಶಿವಾನಂದ್ ನರಸಯ್ಯ, ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ಗುಟ್ಟಹಳ್ಳಿ, ಎಂ. ನಾಗರಾಜ್, ಆರ್. ಜಯರಾಮ್, ಆರ್. ಮುನಿರಾಜು, ಭಾರತ್ ಮಾತಾ ಸೇವಾ ಸಂಘ, ರಾಜ್ ಮಹಲ್ ಗುಟ್ಟಹಳ್ಳಿ, ನರಸಿಂಹಯ್ಯ, ವಸಂತಪುರ, ಸಿ. ಲಿಂಗರಾಜು, ಕಾಂಗ್ರೆಸ್ ಮುಖಂಡರು, ಕಂಠೀರವ ಕಾಲೋನಿ, ಸಂಜಯ್, ಕಾರ್ಯಕಾರಿ ಸಮಿತಿ ಸದಸ್ಯರು, ಬಾಪೂಜಿ ವಿದ್ಯಾರ್ಥಿ ನಿಲಯ, ವಿಜಯ್, ಕಾರ್ಯಕಾರಿ ಸಮಿತಿ ಸದಸ್ಯರು, ಬಾಪೂಜಿ ವಿದ್ಯಾರ್ಥಿ ನಿಲಯ, ಸಿ. ವೆಂಕಟೇಶಮೂರ್ತಿ, ರಾಜ್ಯ ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ, ಭಾರತರತ್ನ ಅಂಬೇಡ್ಕರ್ ಸೇನೆ, ಲಿಂಗರಾಜು ಗುಲ್ಲೆ, ದೇವಪ್ಪ ಬೂದನೂರು, ಮಂಜುನಾಥ್ ದೊಡ್ಡಮನಿ, ಸಂಜು ದೊಡ್ಡಮನಿ, ವೆಂಕಟೇಶ್, ಅಧ್ಯಕ್ಷರು, ಹೊಸಹಳ್ಳಿ ಬ್ಲಾಕ್ ಕಾಂಗ್ರೆಸ್, ವಿಜಯನಗರ, ಮರುಳಸಿದ್ದಪ್ಪ, ಚಿತ್ರದುರ್ಗ ಬಿಎಂಟಿಸಿ, ಕನಕಪ್ಪ, ಬಿಎಂಟಿಸಿ, ಮೇಡಮಾರನಹಳ್ಳಿ ಶಿವರಾಜು, ಶಿವಶಂಕರ್ ಕುಣಿಗಲ್, ಕುಮಾರ್ ಭಕ್ತರಹಳ್ಳಿ, ಗೋವಿಂದರಾಜು ವಿ. ಮಾದಿಹಳ್ಳಿ-ಕಮಲಾನಗರ, ತ್ಯಾರ ಮುನಿರಾಜು, ಬಾಲು ಜಂಬೆ, ತಿಮ್ಮೇಶ್ ಆಬಲವಾಡಿ, ನಾಗಮಂಗಲ ತಾಲ್ಲೂಕು, ಎಂ. ಕೃಷ್ಣಪ್ಪ, ಗ್ರಾ.ಪಂ.ಅಧ್ಯಕ್ಷರು, ರಾಮೋಹಳ್ಳಿ, ಲಕ್ಷಣ, ಗ್ರಾ.ಪಂ. ಅಧ್ಯಕ್ಷರು, ಗಂಗೊಂಡನಹಳ್ಳಿ, ಜಗದೀಶ್, ಗುತ್ತಿಗೆದಾರರು, ಮಲುಮ್ ಗೆರೆ ಮಹದೇವ, ಅಧ್ಯಕ್ಷರು, ಚನ್ನಪಟ್ಟಣ ತಾಲ್ಲೂಕು, ಕ.ರಾ.ಆದಿ ಜಾಂಬವ ಸಂಘ, ಕೇಶವಮೂರ್ತಿ, ಚಿತ್ರನಟರು ಮತ್ತು ಉಪಾಧ್ಯಕ್ಷರು, ಕ.ರಾ.ಆದಿ ಜಾಂಬವ ಸಂಘ, ಚನ್ನಪಟ್ಟಣ, ಮಿಂಚು ಸೂರ್ಯವಂಶಿ ಮುನಿಸ್ವಾಮಯ್ಯ, ವಿ. ಮುನಿಯಪ್ಪ, ಲಕ್ಷ್ಮೀಪುರ ಗ್ರಾಮ, ಜೆಸಿಬಿ ನಾಗರಾಜ್, ಶಂಕರ್, ಇಜ್ಜಲಘಟ್ಟ, ಗಂಗಾಧರ್, ಮುಮ್ಮೇನಹಳ್ಳಿ ಪಂಚಾಯತಿ ಸದಸ್ಯರು, ಆಲೂರು ಕೃಷ್ಣ, ಚಿತ್ರ ನಿರ್ದೇಶಕರು, ಟಿ. ರಾಮಚಂದ್ರ, ಉದ್ಯಮಿ, ಹೆಚ್.ಟಿ. ಕುಮಾರಸ್ವಾಮಿ, ಸಂಡೂರ್, ಗೌಡಳ್ಳಿಯ ಚಂದ್ರು, ಗ್ರಾ.ಪಂ. ಸದಸ್ಯರು, ಶ್ರೀಮತಿ ಮಂಜುಳ ಅಂಬೇಡ್ಕರ್ ಸಂಘ, ಶ್ರೀರಾಂಪುರ, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ನಾಗಮಂಗಲ, ಅಶ್ವಥ್-ಅಧ್ಯಕ್ಷರು, ವೆಂಕಟೇಶ್-ಗೌರವಾಧ್ಯಕ್ಷರು, ಮಜ್ಜಹನುಮ-ಸಂಘಟನಾ ಕಾರ್ಯದರ್ಶಿ, ಸತೀಶ್-ಜಂಟಿ ಕಾರ್ಯದರ್ಶಿ ಮತ್ತು ಸದಸ್ಯರು, ಚೀನ್ಯಾ ಗ್ರಾಮ, ಪಂಚಾಯಿತಿ, ಶಿವಣ್ಣ-ಕಾರ್ಯದರ್ಶಿ, ಆರ್.ಆರ್. ಬ್ಲಾಕ್ ಕಾಂಗ್ರೆಸ್ ತಿಮ್ಮರಾಜು-ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ, ಕೆಂಚನಹಳ್ಳಿ ಶಿವಣ್ಣ, ರಾಜೇಶ್, ಪ್ರಕಾಶ್, ಆರ್. ಗಜೇಂದ್ರ, ಕೆಂಚನಹಳ್ಳಿ, ಶ್ರೀನಿವಾಸ್, ಮದನ್ ಕುಮಾರ್, ಸೋಮಶೇಖರ್, ಜೆ, ಗಂಗಾಧರ್, ಸುಂಕದಕಟ್ಟೆ, ಪುನೀತ್, ಅಧ್ಯಕ್ಷರು, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ, ಚಿಕ್ಕನಹಳ್ಳಿ, ಜಿ.ಎಂ. ಕಾರ್ತಿಕೇಯನ್, ಅಧ್ಯಕ್ಷರು, ಚಾಮರಾಜಪೇಟೆ, ಕ.ರಾ. ಆದಿ ಜಾಂಬವ ಸಂಘ.
+
+      <!-- Replace above paragraph with full Kannada text manually as needed -->
+
+      <br><br>
+
+
+
+
+    <p>
+      ಈ ರಾಜ್ಯದಲ್ಲಿ ಅತೀ ಶೋಷಣೆಗೊಳಗಾಗಿರುವ ಅಸ್ಪೃಶ್ಯ ಕೋಮಿಗೆ ಸೇರಿದ. ಮಾದಿಗ, ಮೋಚಿ, ಮಾದಾರ, ಮಾಂಗ್, ಮಾತಂಗ, ಚಮ್ಮಾರ, ಮಣೆಗಾರ, ಆದಿಶೈವ, ಆದಿಜಾಂಬವ ಮುಂತಾದ ಸುಮಾರು 53 ಹೆಸರಿನಿಂದ ಕರೆಯಲ್ಪಡುವ ಆದಿಜಾಂಬವ ಜನಾಂಗವು ಶೈಕ್ಷಣಿಕ, ಆರ್ಥಿಕ, ರಾಜಕೀಯ ಮತ್ತು ಸಾಮಾಜಿಕ ರಂಗಗಳಲ್ಲಿ ಅತೀ ಹಿಂದುಳಿದಿರುತ್ತದೆ. ಅಲ್ಲದೆ, ಈ ಸಮುದಾಯವು ಚರ್ಮೋದ್ಯೋಗ ಮತ್ತು ಸ್ವಚ್ಛತಾ ಕಾರ್ಯದಲ್ಲಿ ತೊಡಗಿದ್ದು ಹೀನಾಯವಾದ ಮತ್ತು ಅನೈರ್ಮಲ್ಯ ವಾತಾವರಣದಲ್ಲಿ ಜೀವಿಸುತ್ತಿದ್ದು ಇವರಿಗೆ ಸರ್ಕಾರದ ಯಾವುದೇ ಸೌಲಭ್ಯಗಳು ಸಿಗದೆ ಡಾ. ಅಂಬೇಡ್ಕ‌ರ್ರವರ ಮೀಸಲಾತಿಯ ಸವಲತ್ತಿನಿಂದ ವಂಚಿತರಾಗಿದ್ದಾರೆ.
+    </p>
+
+
+    <p>
+      ಈ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಆದಿಜಾಂಬವ ಸಂಘವು 1992 ರಿಂದಲೂ ಎಲ್.ಜಿ. ಹಾವನೂರ್ ಆಯೋಗವು 1975 ರಲ್ಲಿ ನೀಡಿದ್ದ ವರದಿಯನ್ವಯ ಪರಿಶಿಷ್ಟ ಜಾತಿಯ ಶೇ. 55.57 ರಷ್ಟಿರುವ ಆದಿಜಾಂಬವ ಸಮುದಾಯಕ್ಕೆ ಮೀಸಲಾತಿಯಲ್ಲಿ ಜನಸಂಖ್ಯೆಗೆ ಅನುಗುಣವಾಗಿ, ಪ್ರತ್ಯೇಕ ಮೀಸಲಾತಿ ನೀಡಬೇಕೆಂಬ ಒತ್ತಾಯ ಮಾಡಿದ್ದು, ಭಾರತದ ಆಂಧ್ರ, ಹರಿಯಾಣ, ಪಂಜಾಬ್, ತಮಿಳುನಾಡು, ಬಿಹಾರ, ಉತ್ತರಖಾಂಡ ಮುಂತಾದ ರಾಜ್ಯಗಳಲ್ಲಿಯೂ ಮೀಸಲಾತಿಯಲ್ಲಿ ವರ್ಗೀಕರಣ ಮಾಡಿದ್ದು, ಇದರನ್ವಯ ಘನ ಸುಪ್ರೀಂ ಕೋರ್ಟಿನ 7 ಜನರ ಸಾಂವಿಧಾನಿಕ ಪೀಠವು, ಪರಿಶಿಷ್ಟ ಜಾತಿಯಲ್ಲಿ ಒಳ ಮೀಸಲಾತಿ ಮಾಡುವ ಹಕ್ಕು ಆಯಾ ರಾಜ್ಯ ಸರ್ಕಾರಗಳಿಗೆ ಇದೆ ಎಂದು ದಿನಾಂಕ: 01-08-2024 ರಲ್ಲಿ ತೀರ್ಪು ನೀಡಿರುತ್ತದೆ.
+    </p>
+
+    <p>
+      ಕರ್ನಾಟಕದಲ್ಲಿ, ಆದಿಜಾಂಬವ ಸಂಘ ಮತ್ತು ಇತರೆ ಮಾದಿಗ ಸಂಘಟನೆಗಳ ಹೋರಾಟದ ಫಲವಾಗಿ ನ್ಯಾಯಮೂರ್ತಿ, ಎ.ಜೆ. ಸದಾಶಿವ ಏಕ ಸದಸ್ಯ ಆಯೋಗವು 6 ವರ್ಷಗಳಿಗೂ ಅಧಿಕ ಕಾಲ ರಾಜ್ಯದ ಪರಿಶಿಷ್ಟ ಜಾತಿ ಪಟ್ಟಿಯಲ್ಲಿರುವ 101 ಉಪಜಾತಿಯವರ, ಔದ್ಯೋಗಿಕ, ರಾಜಕೀಯ, ಸಾಮಾಜಿಕ, ಶೈಕ್ಷಣಿಕ ಸಮೀಕ್ಷೆ ನಡೆಸಿ, ಇವರ ಅಭಿವೃದ್ಧಿಯ ಬಗ್ಗೆ ಮಾಡಿದ ಅಧ್ಯಯನದ ಮೇರೆಗೆ ಇದರಲ್ಲಿ ಅಸ್ಪೃಶ್ಯ ಸಮುದಾಯದ ಬಹುಸಂಖ್ಯಾತ ಆದಿಜಾಂಬವ (ಮಾದಿಗ ಸಂಬಂಧಿತ) ಕೋಮಿಗೆ ಶೇ.6%, ಛಲವಾದಿ (ಹೊಲೆಯ ಸಂಬಂಧಿತ) ಕೋಮಿಗೆ ಶೇ. 5%, ಅಸ್ಪೃಶ್ಯ ಸಮುದಾಯಕ್ಕೆ ಸೇರಿದ ಭೋವಿ, ಲಂಬಾಣಿ ಮತ್ತು ಕೊರಮ-ಕೊರಚ ಉಪಜಾತಿಯವರಿಗೆ ಶೇ. 3% ಮತ್ತು ಇತರೆ ಉಪಜಾತಿಯವರಿಗೆ ಶೇ. 1% ರಷ್ಟು ಒಳ ಮೀಸಲಾತಿಯನ್ನು ನೀಡಬಹುದೆಂದು ಶಿಫಾರಸ್ಸು ಮಾಡಿ ಜೂನ್ 2012 ರಲ್ಲಿ ತಮ್ಮ ವರದಿಯನ್ನು ಸರ್ಕಾರಕ್ಕೆ ಸಲ್ಲಿಸಿರುತ್ತಾರೆ. ಅಲ್ಲದೆ, 2023 ರಲ್ಲಿ ಮಾನ್ಯ ಮುಖ್ಯಮಂತ್ರಿ ಶ್ರೀ ಬಸವರಾಜ ಬೊಮ್ಮಾಯಿ ಸರ್ಕಾರದಲ್ಲಿ ನ್ಯಾ: ನಾಗಮೋಹನದಾಸ್ ವರದಿಯನ್ವಯ ಪರಿಶಿಷ್ಟ ಜಾತಿಯ ಮೀಸಲಾತಿಯನ್ನು ಶೇ. 2% ರಷ್ಟು ಏರಿಕೆ ಮಾಡಿದ್ದು, ಈ ಮೀಸಲಾತಿಯಲ್ಲಿ, ಆದಿಜಾಂಬವ ಸಮುದಾಯಕ್ಕೆ ಶೇ. 0.75% ರಷ್ಟು ಅಧಿಕ ಮೀಸಲಾತಿ ನೀಡಬೇಕಾಗಿದ್ದು, ಒಟ್ಟಾರೆ ಮಾದಿಗ ಮತ್ತು ಮಾದಿಗ ಸಂಬಂಧಿತ ಸಮುದಾಯಕ್ಕೆ ಶೇ. 6.75% ರಷ್ಟು ಮೀಸಲಾತಿ ನೀಡಬೇಕಾಗಿರುತ್ತದೆ.
+    </p>
+
+    <p>
+      ಈಗ, ರಾಜ್ಯ ಸರ್ಕಾರವು ಒಳಮೀಸಲಾತಿ ಜಾರಿಗೆ ತರಲು ಇದ್ದ ಎಲ್ಲಾ ಅಡಚಣೆಗಳು ತೆರವಾಗಿದ್ದು, ಈ ಕೂಡಲೇ ರಾಜ್ಯ ಸರ್ಕಾರವು ಮಾದಿಗ ಸಂಬಂಧಿತ ಸಮುದಾಯಕ್ಕೆ ಶೇ. 6.75%ರ ಮೀಸಲಾತಿಯನ್ನು ತಕ್ಷಣ ಜಾರಿ ಮಾಡಬೇಕೆಂದು ಸಂಘವು ಒತ್ತಾಯಿಸುತ್ತದೆ.
+    </p>
+
+    <p class="important" p style="color: red; font-weight: bold;">
+      ● ವಿಶೇಷ ಮನವಿ: ದಿನಾಂಕ: 05-05-2025 ರಿಂದ ಘನ ನ್ಯಾಯಮೂರ್ತಿಗಳಾದ ನಾಗಮೋಹನದಾಸ್ ಆಯೋಗವು ರಾಜ್ಯದಲ್ಲಿ ನಮ್ಮ ಸಮೀಕ್ಷೆ ನಡೆಸುತ್ತಿದ್ದು, ನಮ್ಮ ಸಮುದಾಯದ ಸದಸ್ಯರು ಎಕೆ, ಎಡಿ ಮತ್ತು ಎಎ ಎಂದು ಬರೆಸಬಾರದು...
+    </p>
+
+    <p>
+      ..."ಮಾದಿಗ" ಎಂದು ಬರೆಸಬೇಕು, ಉತ್ತರ ಕರ್ನಾಟಕ ಭಾಗದ ಮಾದಿಗರು ಮಾದಿಗ ಅಥವಾ "ಮಾದರ" ಹಾಗೂ ನಮ್ಮ ಸಮುದಾಯದ ಗುಂಪಿನಲ್ಲಿ ಸೇರಿರುವ ರಾಜ್ಯದ ವಿವಿಧ ಭಾಗದಲ್ಲಿರುವ "ಸಮಗಾರ, 'ಧೋಹರ", "ಕಕ್ಕಯ್ಯ", 'ಮೋಚಿ", 'ಮಚ್ಚಿಗ", "ಹರಳಯ್ಯ" ಮುಂತಾದ ತಮ್ಮ ಮೂಲ ಜಾತಿಯ ಹೆಸರನ್ನು ಬರೆಸಬೇಕು.
+    </p>
+
+    <p>
+      ಪರಿಶಿಷ್ಟ ಜಾತಿ/ವರ್ಗದವರಿಗೆ ಸರ್ಕಾರ ವಿವಿಧ ಯೋಜನೆಗಳಲ್ಲಿ ಮಂಜೂರು ಮಾಡಿರುವ ಜಮೀನುಗಳು ಹಾಗೂ (ತೋಟಿ ಇನಾಂ, ನೀರಗಂಟಿ ಜಿಎಂಎಫ್ ಯೋಜನೆಯಡಿ ಹಾಗೂ ಮುಂತಾದ) ಕೆಲ ಜಮೀನುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ, 1978ರ ಪಿಟಿಸಿಎಲ್ ಕಾಯಿದೆಗೆ ಸಮಗ್ರ ತಿದ್ದುಪಡಿಯನ್ನು ಸರ್ಕಾರವು 2023 ರಲ್ಲಿ ಶಾಸನ ಸಭೆಯಲ್ಲಿ ಅಂಗೀಕರಿಸಿದ್ದರೂ ಕೂಡ ಎಸಿ, ಡಿಸಿ ಮತ್ತು ಉಚ್ಚನ್ಯಾಯಾಲಗಳಲ್ಲಿ ನಮ್ಮ ಪಿಟಿಸಿಎಲ್ ಕಾಯಿದೆಯ ವಿರುದ್ಧವೇ ತೀರ್ಪುಗಳು ಬಂದಿರುತ್ತವೆ. ಇದನ್ನು ಕೂಡಲೇ ಸರಿಪಡಿಸಲು ಸರ್ಕಾರಕ್ಕೆ ಒತ್ತಾಯಿಸುತ್ತೇವೆ.
+    </p>
+
+    <p>
+      ಶಿಕ್ಷಣ ಹಕ್ಕು ಕಾಯಿದೆ: ಕೇಂದ್ರ ಸರ್ಕಾರವು 2010ರಲ್ಲಿ ರಾಷ್ಟ್ರದಲ್ಲಿ ಶಿಕ್ಷಣ ಹಕ್ಕು ಕಾಯಿದೆಯನ್ನು ಜಾರಿ ಮಾಡಿದ್ದು, ಇದರನ್ವಯ ದುರ್ಬಲ ವರ್ಗದ ಶಾಲಾ ಮಕ್ಕಳಿಗೆ ತಮ್ಮ ವಾಸ ಸ್ಥಳದ 3 ಕಿ.ಮೀ. ವ್ಯಾಪ್ತಿಯಲ್ಲಿ 5 ಖಾಸಗಿ ಶಾಲೆಗಳಲ್ಲಿ ಉಚಿತ ಪ್ರವೇಶ ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಟ್ಟಿದ್ದು, ಕರ್ನಾಟಕದಲ್ಲಿ 2019ರಲ್ಲಿ ಅಧಿಕಾರದಲ್ಲಿದ್ದ ಸರ್ಕಾರವು ಖಾಸಗಿ ಶಾಲೆಗಳ ಒತ್ತಡಕ್ಕೆ ಮಣಿದು, ಸರ್ಕಾರಿ ಶಾಲೆಗಳಲ್ಲಿ ಮಾತ್ರ ಉಚಿತ ಪ್ರವೇಶಕ್ಕೆ ಅನುವು ಮಾಡಿಕೊಟ್ಟಿದ್ದು, ಇದು ಜನ ವಿರೋಧಿ ನೀತಿಯಾಗಿರುತ್ತದೆ. ಆದುದರಿಂದ, ರಾಜ್ಯ ಸರ್ಕಾರವು ಈ ಕೂಡಲೆ, ಶಿಕ್ಷಣ ನೀತಿಗೆ ತಿದ್ದುಪಡಿ ಮಾಡಿ, ದುರ್ಬಲ ವರ್ಗದ ಮಕ್ಕಳಿಗೆ ಎಲ್ಲಾ ಖಾಸಗಿ ಸಂಸ್ಥೆಗಳಲ್ಲೂ ಉಚಿತ ಪ್ರವೇಶ ದೊರಕಿಸಿ ಕೊಡುವಂತೆ ಸರ್ಕಾರವನ್ನು ಸಂಘವು ಒತ್ತಾಯಿಸುತ್ತದೆ.
+    </p>
+
+    <p>
+      ಸರ್ಕಾರದ ವಿವಿಧ ಸಾಲ ಯೋಜನೆ / ಆಶ್ರಯ ಮುಂತಾದ ವಸತಿ ಯೋಜನೆಗಳಲ್ಲಿ ಫಲಾನುಭವಿಗಳನ್ನು ಆಯಾ ಕ್ಷೇತ್ರದ ಶಾಸಕರು ಆಯ್ಕೆ ಮಾಡುವುದನ್ನು ಬದಲಿಸಿ, ಆಯಾ ಸಮುದಾಯದ ಸಂಘಗಳು ಶೇ. 25 ರಷ್ಟು ಫಲಾನುಭವಿಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಸೂಕ್ತ ತಿದ್ದುಪಡಿ ಮಾಡಬೇಕು.
+    </p>
+
+    <p>
+      1992 ರಿಂದಲೂ ರಾಜ್ಯದ ಬಗರ್ ಹುಕುಂ ಸಾಗುವಳಿಯಲ್ಲಿ ಫಾರಂ 50, 53 ರಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿರುವವರಿಗೆ ಕೂಡಲೆ ಯಾವುದೇ ಕಾಲಮಿತಿ ಮತ್ತು ದೂರಮಿತಿ ಇಲ್ಲದೆ ಸಾಗುವಳಿ ಚೀಟಿ ನೀಡಲು ಸೂಕ್ತ ತಿದ್ದುಪಡಿ ಮಾಡಬೇಕು.
+    </p>
+
+    <p>
+      ಈ ಮೇಲ್ಕಂಡ ವಿಷಯಗಳ ಬಗ್ಗೆ ಜನರ ಮತ್ತು ಸರ್ಕಾರದ ಗಮನ ಸೆಳೆಯಲು, ಕರ್ನಾಟಕ ಆದಿಜಾಂಬವ / ಮಾದಿಗ ಸಂಘಟನೆಗಳ ಒಕ್ಕೂಟದ ಆಶ್ರಯದಲ್ಲಿ ಒಂದು ಬೃಹತ್ ಸಂವಿಧಾನ ಜಾಗೃತಿ ಸಮಾವೇಶವನ್ನು ಏರ್ಪಡಿಸಿದೆ. ಈ ಸಮಾವೇಶದಲ್ಲಿ ರಾಜ್ಯದ ಎಲ್ಲಾ ಭಾಗಗಳಿಂದ ಮಾದಿಗ ಸಂಬಂಧಿತ ಜಾತಿಗಳ ಸದಸ್ಯರು ಲಕ್ಷಾಂತರ ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಾಗವಹಿಸಿ ಸರ್ಕಾರದಲ್ಲಿ ನಮ್ಮ ಹಕ್ಕುಗಳನ್ನು ಪಡೆಯೋಣ.
+    </p>
+</div>
+
+    <script>
+  function toggleReadMore() {
+    const content = document.getElementById("moreContent");
+    const btn = document.getElementById("readMoreBtn");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      btn.innerText = "Read Less";
+    } else {
+      content.style.display = "none";
+      btn.innerText = "Read More";
+    }
+  }
+</script>
+
+
+  </div>
+
+
+    </div>
+  </div>
+
+        <!-- recent-news-area start-->
+        <div id="news" class="recent-news-area pt100 pb90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb50">
+                        <!-- <h1 class="section-title">Recent News</h1> -->
+                    </div>
+                    <div class="col-12">
+                        <div class="total-news crasoule-btn">
+                            <div class="news-item">
+                                <div class="news-img animate-eff">
+    <a href="img/slider/FINAL Pamphlet.pdf" target="_blank">
+        <img src="img/blog/news-01.jpg" alt="">
+    </a>
+</div>
+
+                            </div>
+                            <div class="news-item">
+                                <div class="single-news">
+                                    <div class="news-img animate-eff">
+                                        <a href="#"><img src="img/blog/news-02.jpg" alt=""></a>
+                                    </div>
+                                    <!-- <div class="news-contant">
+                                        <h3 class="uppercase"><a href="#">Design & Develop concept fot new Designer</a>
+                                        </h3>
+                                        <p>Post-by :<a href="#"> Admin</a> </p>
+                                        <div class="news-bottom shadow-box">
+                                            <a href="#"><i class="zmdi zmdi-favorite-outline"></i>7 Like</a>
+                                            <a href="#"><i class="zmdi zmdi-comment-text"></i>9 Comment</a>
+                                            <a class="read-more" href="single-blog.html">Read More</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="single-news">
+                                    <div class="news-img animate-eff">
+                                        <a href="#"><img src="img/blog/news-03.jpg" alt=""></a>
+                                    </div>
+                                    <!-- <div class="news-contant">
+                                        <h3 class="uppercase"><a href="#">Design & Develop concept fot new Designer</a>
+                                        </h3>
+                                        <p>Post-by :<a href="#"> Admin</a> </p>
+                                        <div class="news-bottom shadow-box">
+                                            <a href="#"><i class="zmdi zmdi-favorite-outline"></i>5 Like</a>
+                                            <a href="#"><i class="zmdi zmdi-comment-text"></i>2 Comment</a>
+                                            <a class="read-more" href="single-blog.html">Read More</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="single-news">
+                                    <div class="news-img animate-eff">
+                                        <a href="#"><img src="img/blog/news-01.jpg" alt=""></a>
+                                    </div>
+                                    <!-- <div class="news-contant">
+                                        <h3 class="uppercase"><a href="#">Design & Develop concept fot new Designer</a>
+                                        </h3>
+                                        <p>Post-by :<a href="#"> Admin</a> </p>
+                                        <div class="news-bottom shadow-box">
+                                            <a href="#"><i class="zmdi zmdi-favorite-outline"></i>10 Like</a>
+                                            <a href="#"><i class="zmdi zmdi-comment-text"></i>3 Comment</a>
+                                            <a class="read-more" href="single-blog.html">Read More</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- recent-news-area end-->
+ <h1>My YouTube Videos</h1>
+
+  <div class="video-container">
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/--ewYwb1NNE" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/-RDW0PAQW_8" allowfullscreen></iframe>
+    </div>
+     <div class="video-box">
+      <iframe src="https://youtu.be/GF4rUvsVhQk?si=81RmBZj9qKRymq25" allowfullscreen></iframe>
+    </div>
+     <div class="video-box">
+      <iframe src="https://youtu.be/3i71JHNhQPo?si=mWR4B_99yWKVUC40" allowfullscreen></iframe>
+    </div>
+     <div class="video-box">
+      <iframe src="https://youtu.be/Xj6FW-ENc24?si=Ic1EI1HlIqFXIXPB" allowfullscreen></iframe>
+    </div>
+     <div class="video-box">
+      <iframe src="https://www.facebook.com/share/v/1EsNwZQnDE/" allowfullscreen></iframe>
+    </div>
+  </div>
+        <!--call to action area start-->
+      
+        <!--call to action area End-->
+
+        <!--map area start-->
+        <div id="contact" class="map-area mt100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6934446248697!2d77.5174293748933!3d12.991448687325786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3db133684a33%3A0x2f1ae35bee99c92c!2sDr%20Babu%20Jagjivanram%20Bhavana!5e0!3m2!1sen!2sin!4v1748427039843!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe class="contact-map-size"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1613802584124!5m2!1sen!2sbd"
+                allowfullscreen="" loading="lazy">
+            </iframe> -->
+            <!-- <div class="map-content">
+                <div class="content-body">
+                    <form id="contact-form" action="https://whizthemes.com/mail-php/other/mail.php">
+                        <div class="input-box">
+                            <input type="text" placeholder="Name" class="info" name="con_name">
+                            <input type="email" placeholder="E-mail*" class="info" name="con_email">
+                            <input type="text" placeholder="Title" class="info" name="con_subject">
+                            <textarea class="area-text" placeholder="Message" name="con_message"></textarea>
+                        </div>
+                        <p class="form-message"></p>
+                        <div class="input-box upload-box">
+                            <button type="submit" class="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+        </div>
+        <!--map area end-->
+
+     
+        <!--footer area are start-->
+    </div>
+    <!--body-wraper-are-end-->
+
+    <!--==== all js here====-->
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- meanmenu js -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- Nivo js -->
+    <script src="js/nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <script src="js/nivo-slider/nivo-active.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Vedio js -->
+    <script src="js/video.js"></script>
+    <!-- Youtube Background JS -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- datepicker js -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- waypoint js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- onepage nav js -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- animate text JS -->
+    <script src="js/animate-text.js"></script>
+    <!-- plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- ajax-mail js -->
+    <script src="js/ajax-mail.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
